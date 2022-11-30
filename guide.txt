@@ -1,0 +1,40 @@
+HOW DO TO THE THING
+
+BEFORE THE RUN:
+1. Optimize your sens
+    Go to your options.txt/standardoptions.txt
+    Ctrl+C copy your mouseSensitivity setting
+    Run OptimizeMySens.java with your input sens
+    Paste the new sens into standardoptions.txt
+2. Update ninjabrainbot to have my thing as an option
+    You'll want to enter your sens in here somewhere
+
+DURING THE RUN:
+1. Throw your eye on full FOV and sens.
+2. Look near-ish to the eye
+3. F3+C
+4. Pause
+5. Set your FOV to minimum
+6. Set your mouse sensitivity to yawn, then right arrow it once.
+7. Trigger tall macro to 16384 instance height.
+8. Unpause
+9. Move to precise point
+10. Count the number of subpixels/pixels offset you are
+11. F3+C again
+12. Enter your number of subpixels offset
+13. Pause
+14. Continue run as normal
+
+EXPLANATION
+Back in January, I realized that making 
+
+CREDITS:
+Sharpieman20 for this strat
+Sharpieman20 for tall macro idea
+Sharpieman20 for mouse sensitivity optimization
+Ninjabrain for tall macro pixel size equation
+ExerSolver for testing tall macro error
+ExerSolver for 0.0025 offset
+Four for initial mouse sensitivity investigation
+Four, Sharpie, Matthew, Pod for original perfect travel
+Una for making the precise angle mod
