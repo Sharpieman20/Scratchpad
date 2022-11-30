@@ -43,6 +43,7 @@ real_precise_angle = 96.944580
 precise_start = get_precise_start_angle(measured_angle, my_normal_min_inc)
 
 # Angle from second f3+c
+# /execute in minecraft:overworld run tp @s 160.30 78.00 238.30 -41.79 -32.02
 eye_measured_angle = -41.79
 # Number of pixels offset
 pixel_count = -1
