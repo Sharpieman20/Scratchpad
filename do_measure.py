@@ -7,6 +7,7 @@ def get_min_inc_from_sens(sens):
 
 def get_degrees_per_pixel(height):
     assert height == 16384
+    # TODO: add arctan(2*tan(30/2 degrees)/height)/cos(31.6 degrees) for other heights
     return 0.00220031449588
 
 def get_precise_start_angle(measured_angle, min_inc):
