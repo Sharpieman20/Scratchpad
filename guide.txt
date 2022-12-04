@@ -26,15 +26,15 @@ DURING THE RUN:
 14. Continue run as normal
 
 EXPLANATION
-Back in January, I realized that making 
+TODO: Fill this in
 
 CREDITS:
 Sharpieman20 for this strat
+ExerSolver for precise pixel offset idea/implementation
 Sharpieman20 for tall macro idea
-Sharpieman20 for mouse sensitivity optimization
 Ninjabrain for tall macro pixel size equation
 ExerSolver for testing tall macro error
-ExerSolver for 0.0025 offset
-Four for initial mouse sensitivity investigation
-Four, Sharpie, Matthew, Pod for original perfect travel
-Una for making the precise angle mod
+Four for initial mouse sensitivity investigation/observation
+Sharpieman20 for mouse sensitivity optimization idea, algorithm, and implementation
+Unascribed for making the precise angle mod used for debugging/experimenting
+Four, Sharpieman20, Matthew Bolan, Jojoe77777 for original perfect travel. More credits for that here: https://docs.google.com/document/d/1JTMOIiS-Hl6_giEB0IQ5ki7UV-gvUXnNmoxhYoSgEAA/edit?usp=sharing
