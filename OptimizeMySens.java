@@ -1,6 +1,7 @@
 
 
 import java.lang.*;
+import java.util.*;
 
 public class OptimizeMySens {
 
@@ -31,7 +32,7 @@ public class OptimizeMySens {
 
     public static void main(String[] args) {
 
-        String mySens = "0.005";
+        String mySens = "0.004676729";
 
         // Run Float.parseFloat like GameOptions does. Then assign to double.
         double parsedSens = Float.parseFloat(mySens);

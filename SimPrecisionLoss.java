@@ -31,7 +31,7 @@ public class SimPrecisionLoss {
 
     public static void main(String[] args) {
 
-        String mySens = "0.005";
+        String mySens = "0.006676729";
 
         // Run Float.parseFloat like GameOptions does. Then assign to double.
         double parsedSens = Float.parseFloat(mySens);
@@ -39,14 +39,18 @@ public class SimPrecisionLoss {
         double bestSens = Double.NaN;
         double bestError = Double.NaN;
 
-        int mult = 10000000;
+        int mult = 1000000;
         int iterations = 1 * mult;
         double stepSize = 0.001 / mult;
 
         for (int i = 0; i < iterations; i++) {
 
             double baseSens = (i-(iterations/2))*stepSize+parsedSens;
-            baseSens += Math.random()*stepSize;
+            if (i != iterations / 2) {
+
+                baseSens += Math.random()*stepSize;
+            }
+            
 
             if (Math.abs(baseSens-parsedSens) > 0.001) {
 
